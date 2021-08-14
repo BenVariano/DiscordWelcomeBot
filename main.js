@@ -29,7 +29,7 @@ client.on('message', message=>{
 
     if (command === 'nice' && message.author.username == 'southwingman'){
         message.channel.send('small cock!', {tts:true});
-
+        
     }
 });
 client.on('voiceStateUpdate', (oldState, newState) =>{ 
@@ -42,4 +42,4 @@ client.on('voiceStateUpdate', (oldState, newState) =>{
 
 
 //login that has to go at end of file
-client.login('ODcxOTQ1NzM4MTEwNzYzMDk4.YQisvw.-aCAoD04_5KiaCyl7Qq8vvWdFiY')
+client.login('ODcxOTQ1NzM4MTEwNzYzMDk4.YQisvw.LBlCOMEJg-5m5mTblvy1w2ViYIw')
